@@ -5,6 +5,22 @@ Prédiction du risque de résiliation client (Customer Churn) avec comparaison m
 
 ---
 
+## Prérequis — Télécharger le dataset
+
+Le fichier de données n'est pas inclus dans le dépôt. Avant de lancer le projet :
+
+1. Télécharger le dataset sur Kaggle : [customer-churn-prediction-business-dataset](https://www.kaggle.com/datasets/miadul/customer-churn-prediction-business-dataset)
+2. Télécharger le fichier `customer_churn_business_dataset.csv`
+3. Le placer dans le dossier `data/` du projet :
+
+```
+Projet_Datascience/
+└── data/
+    └── customer_churn_business_dataset.csv   ← ici
+```
+
+---
+
 ## Lancement rapide avec Docker
 
 Prérequis : avoir [Docker Desktop](https://www.docker.com/products/docker-desktop/) installé et lancé.

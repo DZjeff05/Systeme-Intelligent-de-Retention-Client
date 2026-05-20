@@ -1,0 +1,50 @@
+{
+  "metrics": {
+    "Régression Logistique": {
+      "Accuracy": 0.8965,
+      "Precision": 0.2857,
+      "Recall": 0.0098,
+      "F1 Score": 0.019,
+      "ROC AUC": 0.7232
+    },
+    "Random Forest": {
+      "Accuracy": 0.899,
+      "Precision": 1.0,
+      "Recall": 0.0098,
+      "F1 Score": 0.0194,
+      "ROC AUC": 0.7981
+    },
+    "XGBoost": {
+      "Accuracy": 0.8475,
+      "Precision": 0.221,
+      "Recall": 0.1961,
+      "F1 Score": 0.2078,
+      "ROC AUC": 0.7322
+    },
+    "MLP (Deep Learning)": {
+      "Accuracy": 0.8395,
+      "Precision": 0.1937,
+      "Recall": 0.1814,
+      "F1 Score": 0.1873,
+      "ROC AUC": 0.6415
+    }
+  },
+  "cross_validation": {
+    "Régression Logistique": {
+      "cv_auc_mean": 0.7189,
+      "cv_auc_std": 0.0189
+    },
+    "Random Forest": {
+      "cv_auc_mean": 0.7987,
+      "cv_auc_std": 0.0139
+    },
+    "XGBoost": {
+      "cv_auc_mean": 0.7312,
+      "cv_auc_std": 0.0172
+    },
+    "MLP (Deep Learning)": {
+      "cv_auc_mean": 0.6538,
+      "cv_auc_std": 0.02
+    }
+  }
+}
